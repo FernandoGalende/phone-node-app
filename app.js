@@ -1,8 +1,9 @@
 const express = require('express');
 const routes = require('./routes/routes.js');
+const cors = require('cors')
 
 const app = express()
-
+app.use(cors())
 routes(app);
 
 app.use(function (err, req, res, next) {
