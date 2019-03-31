@@ -12,6 +12,8 @@ You can serve the backend application locally in debug mode using `docker-compos
 
 If you have problems with `docker-compose up` after install desktop should run `docker run --detach --publish=80:80 --name=webserver nginx` and then `docker-compose up`.
 
+If you need to build again after your first up you can use `docker-compose up --build`.
+
 You can run the docker without `docker-compose up` using directly Dockerfile. you should run first `docker build -t phone_app_backend .` and then
 `docker run -p 3000:3000 -it phone_app_backend`
 
