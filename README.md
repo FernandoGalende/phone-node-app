@@ -7,7 +7,10 @@ For unit testing I install jest & enzyme to ensure quality of the project.
 
 ## Getting Started
 
-You can serve the application locally in debug mode by running `npm run start`. an
+`docker build -t phone_app_backend .`
+`docker run -p 3000:3000 -it phone_app_backend`
+
+You can serve the application locally in debug mode by running `npm run start`.
 
 Runs the app in the development mode in [http://localhost:3000](http://localhost:3000).
 

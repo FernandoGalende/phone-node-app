@@ -4,7 +4,10 @@
   "description": "backend for react phone app",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon app.js",
+    "start-debug": "nodemon --inspect=0.0.0.0:9229 ./app.js",
+    "docker": "node --experimental-modules ./signal-server",
+    "docker-build": "docker build -t node-web-development/signalauth ."
   },
   "repository": {
     "type": "git",
