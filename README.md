@@ -18,7 +18,7 @@ You will also see any lint errors in the console.
 
 You need to run npm i located in the root directory to install dependencies.
 
-## Contact!!!
+## Authors
 
 You can download in Fernando's [github:](https://github.com/FernandoGalende/phone-node-app)
 **Fernando Aparicio Galende `fernandogalende@gmail.com`**
